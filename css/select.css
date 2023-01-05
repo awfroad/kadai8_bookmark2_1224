@@ -1,0 +1,33 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+    font-family: 'M PLUS 1p', sans-serif;
+    background-image: url(../img/library2.jpeg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    font-size: 1rem;
+}
+table {
+    background-color: #ffffffdd;
+}
+
+th,td {
+    border: 1px #000 solid;
+    text-align: center;
+    vertical-align: middle;
+}
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.navbar-header {
+    background-color: #ffffffcc;
+}
+.modoru {
+    font-size: 2rem;
+}

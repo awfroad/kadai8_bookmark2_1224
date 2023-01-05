@@ -1,0 +1,97 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+    font-family: 'M PLUS 1p', sans-serif;
+    /* background-image: url(../img/library2.jpeg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1rem;
+}
+table {
+    background-color: #ffffffcc;
+}
+
+th,td {
+    border: 1px #000 solid;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+    height: 5vh;
+}
+
+td {
+    height: 20vh;
+}
+
+.wrapper {
+    position: relative;
+    z-index: 1;
+    background-image: url(../img/library2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: 0.3;
+}
+
+.container {
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.touroku {
+    width: 100px;
+    height: 100px;
+    z-index: 4;
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    background-color: #333;
+}
+.ichiran {
+    width: 100px;
+    height: 100px;
+    z-index: 4;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.transition {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 40px;
+}
+
+.btn {
+    width: 100%;
+    font-size: 1.4rem;
+}
+textarea {
+    font-size: 1rem;
+}
